@@ -1,5 +1,11 @@
 fastapi
 uvicorn
+aiohttp
+aiodns
+maxminddb
+cachetools
+click
+pyyaml
 .
 aiogram>=3.4.1
 python-dotenv
