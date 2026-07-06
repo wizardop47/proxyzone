@@ -1,5 +1,5 @@
 fastapi
 uvicorn
-proxybroker2==2.0.0b3
+.
 aiogram>=3.4.1
 python-dotenv
