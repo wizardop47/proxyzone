@@ -29,8 +29,7 @@ with codecs.open("proxybroker/__init__.py", mode="r", encoding="utf-8") as f:
 # Get version from pyproject.toml (single source of truth)
 INFO["version"] = get_version()
 
-with codecs.open("README.md", mode="r", encoding="utf-8") as f:
-    INFO["long_description"] = f.read()
+INFO["long_description"] = "ProxyBroker2"
 
 REQUIRES = [
     "aiohttp>=3.12.0",
